@@ -1,9 +1,4 @@
-@font-face{  
-    font-family: "mifuente"; src: url("../fuentes/PixelifySans-VariableFont_wght.ttf") format("truetype");
-}
-.classname {
-    font-family:"mifuente";
-}
+
 body{ 
     background-image:url("BCKGR Perfil.png");
     img {
@@ -27,17 +22,17 @@ body{
         margin-left: 300px ;
     }
     h1{
-        font-size: 3em; font-family: "mifuente"; src: url("../fuentes/PixelifySans-VariableFont_wght.ttf")format("truetype");
+        font-size: 3em; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:rgb(255, 128, 38)
     }   
     h2{
         position:relative;
         top: -340px;
-        margin-left:600px;
+        margin-left:540px;
     }
     h2{
         font-size: 2em ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-        color: chartreuse; 
+        color: rgb(255, 170, 0); 
     }
     p {
         position:relative;
@@ -46,7 +41,7 @@ body{
     }
     p {
         font-size: 1em; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color:rgb(255, 255, 255);
+        color:chartreuse
     }
     .encuan{
         position:relative;
@@ -63,7 +58,7 @@ body{
     }  
     dt {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color:rgb(250, 250, 250)
+        color:chartreuse
     }
     dd {
         position:relative;
@@ -72,11 +67,11 @@ body{
     }
    dd {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     color:rgb(251, 251, 251)
+     color:chartreuse 
     }
-    .dent{
+    .dentr{
         position:relative;
-        top: 30px;
+        top:30px;
     }
     li{
         position:relative;
@@ -85,6 +80,6 @@ body{
     }
    li {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     color:rgb(255, 255, 255)
+     color:chartreuse
     }
 }
